@@ -1,0 +1,27 @@
+- name: Task 1 — Правильный треугольник
+  run: pytest -q tests/test_task1.py --disable-warnings
+  points: 1
+
+- name: Task 2 — Принадлежность интервалу
+  run: pytest -q tests/test_task2.py --disable-warnings
+  points: 1
+
+- name: Task 3 — Проверка на слово awesome
+  run: pytest -q tests/test_task3.py --disable-warnings
+  points: 1
+
+- name: Task 4 — Возможность существования треугольника
+  run: pytest -q tests/test_task4.py --disable-warnings
+  points: 1
+
+- name: Task 5 — Проверка на двузначное число
+  run: pytest -q tests/test_task5.py --disable-warnings
+  points: 1
+
+- name: Task 6 — Прямоугольный треугольник
+  run: pytest -q tests/test_task6.py --disable-warnings
+  points: 1
+
+- name: All tasks — Run all tests
+  run: pytest -q tests/ --disable-warnings
+  points: 6
